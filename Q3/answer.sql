@@ -1,0 +1,1 @@
+SELECT (owner_id, owner_name, UNIQUE(category_id) FROM JOIN)
