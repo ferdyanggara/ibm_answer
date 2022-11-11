@@ -1,1 +1,1 @@
-SELECT (owner_id, owner_name, UNIQUE(category_id) FROM JOIN)
+SELECT ownerid,  owner_name, COUNT(UNIQUE(category_id) AS diffcategories FROM owner JOIN article JOIN category_article_mapping GROUP BY ownerid, ownername ORDER BY diffcategories DESC
